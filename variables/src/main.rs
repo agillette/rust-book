@@ -9,4 +9,8 @@ fn main() {
     let y = y + 1;
     let y = y * 2;
     println!("The value of y is: {}", y);
+
+    let tup = (500, 6.4, 1);
+    let (a, b, c) = tup;
+    println!("The value of b is: {}", b);
 }
