@@ -13,4 +13,7 @@ fn main() {
     let tup = (500, 6.4, 1);
     let (a, b, c) = tup;
     println!("The value of b is: {}", b);
+
+    // array type annotation [type: len]
+    let d: [i32; 5] = [1, 2, 3, 4, 5];
 }
